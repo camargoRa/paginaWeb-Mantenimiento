@@ -1,4 +1,4 @@
-import { useToast } from './useToast';
+import { useToast } from '../hooks/useToast';
 import { ToastContainer } from './Alerts';
 
 function enviarFormulario(e, addToast) {
