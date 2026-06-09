@@ -13,28 +13,26 @@ function enviarFormulario(e) {
 
 export default function Pedido() {
     return (
-        <div className="min-h-screen flex items-center justify-center px-10" id="Pedido">
-            <div className="flex flex-row items-center gap-12 w-full max-w-5xl">
+        <div className="min-h-screen flex items-center justify-center px-6 py-16" id="Pedido">
+            <div className="flex flex-col md:flex-row items-center gap-10 w-full max-w-5xl">
 
-                <div className="flex-1 flex flex-col gap-4">
-                    <h2 className="text-3xl font-bold leading-snug">Solicite su servicio técnico</h2>
+                <div className="flex-1 flex flex-col gap-4 text-center md:text-left">
+                    <h2 className="text-2xl md:text-3xl font-bold leading-snug">Solicite su servicio técnico</h2>
                     <p className="text-gray-500 text-sm leading-relaxed">
                         Complete el formulario para solicitar nuestro servicio técnico.
                         Nos pondremos en contacto lo antes posible para coordinar la reparación de su equipo.
                     </p>
-                    <ul className="flex flex-col gap-3 mt-2 text-sm text-gray-500">
+                    <ul className="flex flex-col gap-3 mt-2 text-sm text-gray-500 items-center md:items-start">
                         <li>⏱ Respuesta en menos de 24 horas</li>
                         <li>📍 Servicio a domicilio en Medellín</li>
                         <li>🛡 Garantía en todas las reparaciones</li>
                     </ul>
                 </div>
 
-                <div className="flex-1 bg-white border border-gray-100 rounded-xl shadow-sm p-7">
+                <div className="flex-1 w-full bg-white border border-gray-100 rounded-xl shadow-sm p-7">
                     <h3 className="text-lg font-medium mb-5">Formulario de pedido</h3>
-                    {}
                     <form onSubmit={enviarFormulario}>
-                        <div className="flex gap-3 mb-4">
-                            {}
+                        <div className="flex flex-col sm:flex-row gap-3 mb-4">
                             <input name="nombre" type="text" placeholder="Nombre" className="flex-1 border border-gray-200 rounded-md p-2 text-sm" required />
                             <input name="apellido" type="text" placeholder="Apellido" className="flex-1 border border-gray-200 rounded-md p-2 text-sm" required />
                         </div>

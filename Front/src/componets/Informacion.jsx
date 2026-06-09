@@ -9,7 +9,7 @@ export default function Informacion() {
                 <p className="text-slate-400 text-sm">Soluciones técnicas rápidas y garantizadas en Medellín.</p>
             </div>
 
-            <div className="grid grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
 
                 <div className="bg-slate-800 border border-slate-700 rounded-xl p-7 flex flex-col gap-4">
                     <div className="bg-slate-900 rounded-lg w-12 h-12 flex items-center justify-center">
@@ -54,7 +54,7 @@ export default function Informacion() {
                             <rect x="4" y="4" width="16" height="16" rx="2"/>
                         </svg>
                     </div>
-                    <h3 className="text-slate-50 font-semibold">Actualizacion de hardware</h3>
+                    <h3 className="text-slate-50 font-semibold">Actualización de hardware</h3>
                     <p className="text-slate-400 text-sm leading-relaxed">Mejoramos la velocidad de tu computador cambiando disco, aumentando RAM o actualizando componentes.</p>
                 </div>
 
@@ -68,7 +68,7 @@ export default function Informacion() {
                         </svg>
                     </div>
                     <h3 className="text-slate-50 font-semibold">Soporte Remoto</h3>
-                    <p className="text-slate-400 text-sm leading-relaxed">Ofrecemos asistencia remota para resolver problemas de software y mantenimiento lógico</p>
+                    <p className="text-slate-400 text-sm leading-relaxed">Ofrecemos asistencia remota para resolver problemas de software y mantenimiento lógico.</p>
                 </div>
 
             </div>
