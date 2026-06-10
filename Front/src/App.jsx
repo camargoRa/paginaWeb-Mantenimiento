@@ -1,7 +1,8 @@
 import { Link, Route, Routes, BrowserRouter } from "react-router-dom"
-import Header from "./componets/Header"
-import Footer from "./componets/Footer"
+import Header from "./components/layout/Header"
+import Footer from "./components/layout/Footer"
 import Inicio from "./pages/Inicio"
+import WhatsAppButton from "./components/ui/WhatsAppButton"
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Inicio />} />
       </Routes>
       <Footer />
+      <WhatsAppButton />
     </BrowserRouter>
   )
 }
